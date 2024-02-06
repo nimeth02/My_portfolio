@@ -125,28 +125,28 @@ function Contactme() {
                 </div>
                 <div className='mt-20 flex gap-5'>
                     <Link href="https://www.linkedin.com/in/nimeth-nimdinu-231396213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-                        <Image src={linkedin} className='h-10 w-10' />
+                        <Image alt="Image-c2" src={linkedin} className='h-10 w-10' />
                     </Link>
                     <Link href="https://github.com/nimeth02">
-                        <Image src={gitlogo} className='h-10 w-10' />
+                        <Image alt="Image-c1" src={gitlogo} className='h-10 w-10' />
                     </Link>
 
                 </div>
             </div>
             <form ref={form} className='flex flex-col gap-10 flex-1  w-full'>
-                <input class="bg-gray-600 placeholder-gray-400 rounded w-full py-2 px-4 text-white leading-tight outline-none  "
+                <input className="bg-gray-600 placeholder-gray-400 rounded w-full py-2 px-4 text-white leading-tight outline-none  "
                     placeholder='Name'
                     name="name"
                 />
-                <input class="bg-gray-600 placeholder-gray-400 rounded w-full py-2 px-4 text-white leading-tight outline-none  "
+                <input className="bg-gray-600 placeholder-gray-400 rounded w-full py-2 px-4 text-white leading-tight outline-none  "
                     placeholder='Email'
                     name="email"
                 />
-                <input class="bg-gray-600 placeholder-gray-400 rounded w-full py-2 px-4 text-white leading-tight outline-none  "
+                <input className="bg-gray-600 placeholder-gray-400 rounded w-full py-2 px-4 text-white leading-tight outline-none  "
                     placeholder='Subject'
                     name="subject"
                 />
-                <textarea class="bg-gray-600 h-[200px] placeholder-gray-400 rounded w-full py-2 px-4 text-white leading-tight outline-none  "
+                <textarea className="bg-gray-600 h-[200px] placeholder-gray-400 rounded w-full py-2 px-4 text-white leading-tight outline-none  "
                     placeholder='Your messsage'
                     name="yourMessage"
                 />

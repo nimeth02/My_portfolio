@@ -42,7 +42,7 @@ function Technology() {
 
         </div>
         <div className='flex justify-center '>
-        <Image src={techTree} />
+        <Image alt="image T" src={techTree} />
         </div>
     </div>
   )

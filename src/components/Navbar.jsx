@@ -11,7 +11,7 @@ function Navbar() {
       <Image
       src={logo}
       className='h-[25px] lg:h-[30px] xl:h-[50px]'
-
+alt="Image N1"
       />
       <div className=' text-white flex-1  gap-[6%] lg:gap-[8%] hidden md:flex'>
         

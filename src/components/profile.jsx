@@ -9,7 +9,7 @@ function Profile() {
             <div className="lg:mt-5">
                 <div className="flex flex-col md:flex-row-reverse justify-between items-center">
                     <div className="flex justify-center ">
-                        <Image src={profile} className="h-[300px] md:h-[500px]" />
+                        <Image alt="Image P1" src={profile} className="h-[300px] md:h-[500px]" />
                     </div>
                     <div className="flex flex-col gap-4 lg:gap-10 p-4 ">
                         <div className="font-semibold tracking-wide text-lg lg:text-2xl xl:text-3xl text-white">

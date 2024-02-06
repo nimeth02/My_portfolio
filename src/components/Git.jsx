@@ -15,7 +15,7 @@ function Git() {
                 </div>
             </div>
             <div>
-                <Image src={gitlogo} className='h-10 w-10 md:h-20 md:w-20  ' />
+                <Image alt="Image G"src={gitlogo} className='h-10 w-10 md:h-20 md:w-20  ' />
             </div>
         </div>
     )
