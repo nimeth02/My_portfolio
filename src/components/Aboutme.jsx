@@ -25,7 +25,7 @@ function Aboutme() {
             </TimelineIcon>
             <div>
               <div className='text-md md:text-lg sm:w-[300px] text-lg'>
-                A/L's in Physical sceince stram
+                A/L in Physical sceince stram
               </div>
               <div  className="text-sm md:text text-white">
                 2018 - 2020
