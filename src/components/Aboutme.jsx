@@ -11,9 +11,12 @@ import {
 function Aboutme() {
   return (
     <div className='mt-20 '>
-    <div className=' text-xl lg:text-xl   xl:text-2xl text-white '>
+    <div className='px-4  tracking-wide text-lg lg:text-2xl xl:text-3xl text-white font-bold flex flex-col'>
+       
+       <div className=" w-[150px] md:w-[250px] lg:w-[350px]  px-4 py-2 bg-gradient-to-r from-[rgb(138,132,128,0.6)] to-bg rounded-lg" >
        About me
-     </div>
+       </div>
+       </div>
         <div className='flex justify-center '>
         <div className="w-[25rem] mt-10   ">
       <Timeline className=' flex justify-center items-center'>

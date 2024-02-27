@@ -7,7 +7,7 @@ function Profile() {
     return (
         <div>
             <div className="lg:mt-5">
-                <div className="flex flex-col md:flex-row-reverse justify-between items-center">
+                <div className="flex flex-col md:flex-row-reverse justify-between 2xl:pr-40 items-center">
                     <div className="flex justify-center ">
                         <Image alt="Image P1" src={profile} className="h-[300px] md:h-[500px]" />
                     </div>

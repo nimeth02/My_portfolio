@@ -4,7 +4,7 @@ import techTree from '../../public/techTree.svg'
 import { Typography } from '@material-tailwind/react'
 function Technology() {
   return (
-    <div className='mt-40 px-10'>
+    <div className='mt-40 px-10' id="technology">
         <div className='flex justify-center '>
             <div className=' grid  grid-cols-2 sm:grid-cols-3 md:grid-cols-4  gap-5 md:gap-2 md:gap-x-20'>
               <div className='px-3 py-1 bg-black text-center w-[100px] text-white rounded md:col-span-2 md:col-start-1 drop-shadow-[0px_0px_10px_rgba(11,140,205,0.5)]'>

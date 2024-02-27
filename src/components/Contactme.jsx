@@ -98,7 +98,7 @@ function Contactme() {
         }
     }
     return (
-        <div className='flex flex-col md:flex-row items-center gap-10 mt-20 mx-20 '>
+        <div className='flex flex-col md:flex-row items-center gap-10 mt-20 mx-20 ' id="contactme">
             <div className='bg-bt opacity-80  text-white flex-1 p-4 rounded py-10'>
                 <div className='text-lg'>
                     Get in Touch

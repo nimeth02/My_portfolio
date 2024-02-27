@@ -10,18 +10,20 @@ import Projects from "@/components/Projects";
 import Technology from "@/components/Technology";
 import Git from "@/components/Git";
 import Aboutme from "@/components/Aboutme";
-import Contactme from "@/pages/Contactme";
+import Contactme from "@/components/Contactme";
 
 export default function Home() {
   return (
-    <div className="bg-bg p-4 md:p-6">
+    <div >
 <NavbarC />
+<div className="bg-bg p-4 md:p-6">
 <Profile/>
 <Projects />
 <Git/>
 <Technology/>
 <Aboutme />
 <Contactme />
+</div>
     </div>
   );
 }
